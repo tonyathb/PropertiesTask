@@ -1,7 +1,7 @@
 ﻿
 namespace PropertiesTask
 {
-    partial class Form2
+    partial class ListUserPropertiesForm
     {
         /// <summary>
         /// Required designer variable.
@@ -42,14 +42,15 @@ namespace PropertiesTask
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form2
+            // ListUserPropertiesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Name = "Form2";
+            this.Name = "ListUserPropertiesForm";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.ListUserPropertiesForm_Load);
             this.ResumeLayout(false);
 
         }

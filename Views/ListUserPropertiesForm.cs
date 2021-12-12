@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PropertiesTask
 {
-    public partial class Form2 : Form
+    public partial class ListUserPropertiesForm : Form
     {
-        public Form2()
+        public ListUserPropertiesForm()
         {
             InitializeComponent();
         }
@@ -20,6 +20,11 @@ namespace PropertiesTask
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void ListUserPropertiesForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
