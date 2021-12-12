@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace PropertiesTask
 {
-    public partial class Form1 : Form, IEditUserView
+    public partial class EditUserForm : Form, IEditUserView
     {
         private User userBinding = new User();
         private EditUserController editUserController;
 
-        public Form1()
+        public EditUserForm()
         {
             InitializeComponent();
             editUserController = new EditUserController(this);

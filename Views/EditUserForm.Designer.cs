@@ -1,7 +1,7 @@
 ﻿
 namespace PropertiesTask
 {
-    partial class Form1
+    partial class EditUserForm
     {
         /// <summary>
         ///  Required designer variable.
